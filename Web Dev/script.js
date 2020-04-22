@@ -1,1 +1,1 @@
-testing
+/* Javascript place holder */
