@@ -1,0 +1,114 @@
+body{
+
+}
+
+.container {
+    align-content: center;
+    max-width: 960px;
+    margin: auto;
+}
+
+.annyeong{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.annyeong h1{
+    display: block;
+}
+
+.annyeong h2{
+    display: none;
+}
+
+.annyeong button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+}
+
+.nado{
+    background-color: #af4c4c; /* Green */
+    border: none;
+    color: white;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    display: none;
+}
+
+.nado h1{
+    display: block;
+}
+
+.nado h2 {
+    display: none;
+}
+
+.nado button {
+    background-color: #af4c4c; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+}
+
+.salanghae {
+    background-color: #4e4caf; /* Green */
+    border: none;
+    color: white;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    display: none;
+}
+
+.salanghae h1{
+    display: block;
+}
+
+.salanghae h2{
+    display: none;
+}
+
+.salanghae button {
+    background-color: #4e4caf; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+}
+
+.romanWord{
+    display: none;
+}
+
+.englishWord{
+    display: none;
+}
+
+.ignore{
+    display: none;
+}
