@@ -1,95 +1,182 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
 </head>
 
-<header>
-    <ul>
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Education</li>
-        <li>Work Experience</li>
-        <li>Key Skills</li>
-    </ul>
-</header>
-
 <body>
 
-<div>
-<table>
-    <tr>
-        <th>About Me</th>
-    </tr>
-    <tr>
-        <td>Hello, welcome to my online portfolio. My name is Callum McCluskey, a 26 year old IT enthusiast from England.</td>
-    </tr>
-</table>
+<header>
+    <nav>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="navi">
+                    <li><a href="#home-page">Home</a></li>
+                    <li><a href="#about-page">About Me</a></li>
+                    <li><a href="#education-page">Education</a></li>
+                    <li><a href="#work-page">Work Experience</a></li>
+                    <li><a href="#key-page">Key Skills</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<div class="landing-page section" id="home-page">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Hello I'm</h1>
+            <h2>Callum McCluskey</h2>
+            <h3>IT Professional</h3>
+                <ul class="landing-page-ul">
+                    <li><i class="material-icons">local_post_office</i> cmccluskey446@live.com</li>
+                    <li><i class="material-icons">phone</i> +44 7983 655 691</li>
+                    <li><i class="material-icons">room</i> 31, Sandiacres</li>
+                </ul>
+            <a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a>  <a href="#" class="fa fa-google"></a>   <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <div class="col-md-6">
+            <img src="selfie.jpg">
+        </div>
+    </div>
 </div>
 
-<div>
-<table>
-    <tr>
-        <th>University of Sunderland</th>
-    </tr>
-    <tr>
-        <td>I graduated from the University of Sunderland with as a Bachelor of Science (Bsc) in Applied Business Computing</td>
-    </tr>
-    <tr>
-        <th>South Tyneside College</th>
-    </tr>
-    <tr>
-        <td>I attended South Tyneside College where I obtained a Nation Diploma in IT.</td>
-    </tr>
-</table>
+
+<div class="about-page section" id="about-page">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>About Me</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h1>About Me</h1>
+            <h2>Callum Anthony McCluskey</h2>
+            <h3>Born May 31st 1994</h3>
+            <p>Hobbies and Interests include - PC Gaming, Exercising, Airsoft, Camping, Exploring, Coding</p>
+        </div>
+    </div>
 </div>
 
-<div>
-<table>
-    <tr>
-        <th>ATLAS Migration Support</th>
-    </tr>
-    <tr>
-        <td>As a Migration Support Engineer (Nightshift) I was responsible for a large portion of one of the largest live migration projects in the entire world taking place within the organisation. Key responsibilities included: migration of computer assets, up to 1000+ a night, migration of live user accounts including data, email and profile, migration of live printers, migration of laptops, monitoring systems such as Binary Tree to ensure continued syncs throughout the night and monitoring AAD.</td>
-    </tr>
-    <tr>
-        <th>ATLAS Desktop Support</th>
-    </tr>
-    <tr>
-        <td>As a Desktop Support Engineer I was responsible for day to day support of one of the world's largest IT infastructures. </td>
-    </tr>
-    <tr>
-        <th>ATLAS SPOC</th>
-    </tr>
-    <tr>
-        <td>As a SPOC agent I was responsible for troubleshooting and extracting information regarding problems that user's were having with their IT systems, over the telephone.</td>
-    </tr>
-    <tr>
-        <th>O2 Academy Newcastle</th>
-    </tr>
-    <tr>
-        <td>As Barstaff at the O2 Academy Newcastle I was responsible for dealing with up to 2000 customers at any one event. Providing drinks, customer service and information quickly and carefully in order to provide the best experience for the customer.</td>
-    </tr>
-</table>
+<div class="education-page section" id="education-page">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Education</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h1>University of Sunderland</h1>
+            <p>I graduated from the University of Sunderland with as a Bachelor of Science (Bsc) in Applied Business Computing</p>
+        </div>
+        <div class="col-md-4">
+            <h1>South Tyneside College</h1>
+            <p>I attended South Tyneside College where I obtained a Nation Diploma in IT.</p>
+        </div>
+        <div class="col-md-4">
+            <h1>Boldon Comprehensive School</h1>
+            <p>I attended Boldon Comp from ages 11 until 16</p>
+        </div>   
+    </div>
+</div>
+
+<div class="work-page section" id="work-page">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Work Experience</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h1>ATLAS Migration Support</h1>
+            <p>As a Migration Support Engineer (Nightshift) I was responsible for a large portion of one of the largest live migration projects in the entire world taking place within the organisation. Key responsibilities included: migration of computer assets, up to 1000+ a night, migration of live user accounts including data, email and profile, migration of live printers, migration of laptops, monitoring systems such as Binary Tree to ensure continued syncs throughout the night and monitoring AAD.</p>
+        </div>       
+        <div class="col-md-6">
+            <h1>ATLAS Desktop Support</h1>
+            <p>As a Desktop Support Engineer I was responsible for day to day support of one of the world's largest IT infastructures.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h1>ATLAS SPOC</h1>
+            <p>As a SPOC agent I was responsible for troubleshooting and extracting information regarding problems that user's were having with their IT systems, over the telephone.</p>
+        </div>       
+        <div class="col-md-6">
+            <h1>O2 Academy Newcastle</h1>
+            <p>As Barstaff at the O2 Academy Newcastle I was responsible for dealing with up to 2000 customers at any one event. Providing drinks, customer service and information quickly and carefully in order to provide the best experience for the customer.</p>
+        </div>
+    </div>
 </div> 
 
-<div>
-<table>
-    <tr>
-        <th>Key Skills</th>
-    </tr>
-</table>
+<div class="key-page section" id="key-page">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Key Skills</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h1>DHCP</h1>
+            <p></p>
+        </div>
+        <div class="col-md-4">
+            <h1>HTML</h1>
+            <p></p>
+        </div>
+        <div class="col-md-4">
+            <h1>CSS</h1>
+            <p></p>
+        </div>               
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h1>Javascript</h1>
+            <p></p>
+        </div>
+        <div class="col-md-4">
+            <h1>Powershell</h1>
+            <p></p>
+        </div>
+        <div class="col-md-4">
+            <h1>AAD</h1>
+            <p></p>
+        </div>               
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h1>SCCM</h1>
+            <p></p>
+        </div>
+        <div class="col-md-4">
+            <h1>DFS</h1>
+            <p></p>
+        </div>
+        <div class="col-md-4">
+            <h1>Binary Tree</h1>
+            <p></p>
+        </div>               
+    </div>    
 </div>
-    
+
+</main>
     
 </body>
 
 <footer>
 
 </footer>
+
+<script src="jquery.js"></script>
+<script src="bootstrap.js"></script>
+<script src="script.js"></script>
 
 </html>
