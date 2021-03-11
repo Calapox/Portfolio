@@ -13,7 +13,7 @@ function nextWord(){
   } else {
     x.style.display = "none";
     y.style.display = "none";
-    c.style.display = "inline-block";      
+    c.style.display = "inline-block";     
   }
 }
 

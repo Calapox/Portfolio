@@ -101,6 +101,37 @@ body{
     font-size: 45px;
 }
 
+.namja {
+    background-color: #8d999b; /* Green */
+    border: none;
+    color: white;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    display: none;
+}
+
+.namja h1{
+    display: block;
+}
+
+.namja h2{
+    display: none;
+}
+
+.namja button {
+    background-color: #8d999b; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+}
+
 .romanWord{
     display: none;
 }
